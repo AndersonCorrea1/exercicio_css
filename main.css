@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body > header {
+    background-color: rgb(116, 116, 116);
+    padding: 16px 0;
+    color:rgb(0, 0, 0)
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
+    }
+header li a {
+    color: rgb(0, 0, 0); 
+    
+}
+
+header li a:hover{
+    color: rgba(146, 0, 0, 0.562);
+    transition: 0.5s;
+}
+.container {
+    width: 1366px;
+    margin: 0 auto 0 auto;
+    
+    }
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.articles article img {
+    width: 100%;
+    height: 300px;
+}
+
+.articles article {
+    width: 33%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2, .articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.articles article a {
+    text-decoration: none;
+    background-color: rgba(10, 83, 0, 0.952);
+    color: aliceblue;
+    padding: 8px;
+    display: inline-block;
+    transition: 0.8s;
+    font-weight: bolder;
+    margin-top: 8px;
+    border-radius: 10px;
+}
+
+.articles article a:hover {
+    background-color: black;
+}
+
+.articles article p, .articles article a {
+    font-family: Helvetica;
+}
+section h2 {
+    font-size: 34px;
+}
+
+#esportes h2 {
+    text-align: center;
+    font-size: 44px;
+}
+
+#esportes {
+    background-color: rgba(0, 255, 0, 0.2);
+    border-bottom: solid;
+    border-top: solid;
+}
+
+#economia h2 {
+    text-align: center;
+    font-size: 44px;
+}
+
+#economia {
+    background-color: rgba(169, 196, 16, 0.596);
+    color: #000;
+    border-bottom: solid;
+    
+}
+
+#economia .articles article a {
+    background-color: #e07800;
+    transition: 0.8s;
+    border-radius: 10px;
+}
+
+#economia .articles article a:hover {
+    background-color: black;
+    transition: 0.8s;
+    
+}
+
+#btn-topo {
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    border-radius: 80px;
+    
+}
+
+#games h2 {
+    text-align: center;
+    font-size: 44px;
+    
+}
+
+#games {
+    border-bottom: solid ;
+    background-color: rgba(117, 37, 245, 0.363)
+    
+}
+
+#games .articles article a {
+    background-color: rgb(114, 5, 5);
+    border-radius: 10px;
+}
+
+#games .articles article a:hover {
+    background-color: black;
+    transition: 0.8s;
+}
+
+footer {
+    background-color: rgb(116, 116, 116);
+    padding: 10px 0;
+    text-align: center;
+    font-family: Helvetica;
+    color: rgb(0, 0, 0);
+    
+}
+
+#filmes {
+    border-bottom: solid;
+    background-color: rgba(177, 27, 27, 0.274);
+}
+
+#filmes .articles article a {
+    background-color: rgb(20, 0, 109);
+    border-radius: 10px;
+}
+
+#filmes .articles article a:hover {
+    background-color: black;
+    transition: 0.8s;
+}
